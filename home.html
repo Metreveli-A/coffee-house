@@ -55,63 +55,53 @@
              </div>
         </div>
     </section>
-    <section id="favorite-coffee">
-        <div class="favorite-coffee">
-             <div class="container">
-                <div class="favorite-coffee-h3">
-                    <h3>Choose your <span>favorite</span> coffee</h3>
-                </div>
-                <div class="coffee-slide">
-                    <div class="swiper">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                          <!-- Slides -->
-                          <div class="swiper-slide"><img src="./slider-img/coffee-slider-1.png" alt="slide1"/>
-                                <div class="text-slide">
-                             <h2>S' mores Frappuccino</h2>
-                                 <p>This new drink takes an espresso and mixes it with brown<br>
-                                sugar and cinnamon before being topped with oat milk.
-                                </p>
-                                <h2>$5.50</h2>
-                            </div> 
-                          </div>
-                          <div class="swiper-slide"><img src="./slider-img/coffee-slider-2.png" alt="slide1"/>
-                            <div class="text-slide">
-                                <h2>Caramel Macchiato</h2>
-                                    <p>
-                                        Fragrant and unique classic espresso with rich caramel-peanut<br>
-                                        syrup, with cream under whipped thick foam.
-                                   </p>
-                                   <h2>$5.00</h2>
-                               </div> 
-                        </div>
-                          <div class="swiper-slide"><img src="./slider-img/coffee-slider-3.png" alt="slide1"/>
-                            <div class="text-slide">
-                                <h2>Ice coffee</h2>
-                                    <p>
-                                        A popular summer drink that tones and inviorates. Prepared<br>
-                                        from coffee, milk and ice.
-                                   </p>
-                                   <h2>$4.50</h2>
-                               </div> 
-                        </div>
-                          
-                        </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-                      
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                      
-                        <!-- If we need scrollbar -->
-                        <!-- <div class="swiper-scrollbar"></div> -->
-                      </div>
-                    </div>
-                    <div class="controls">
 
-                    </div>
-             </div>
+
+     <section class="grid-content favorite-coffee" id="favorite-coffee">
+        <h2 class="section-heading">Choose your <span>favorite</span> coffee</h2>
+        <div class="slider">
+            <button class="button btn-left" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.5 12H6M6 12L12 6M6 12L12 18" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="row-slider">
+                <div class="slide slide-active">
+                    <img src="./slider-img/coffee-slider-1.png" alt="S'mores Frappuccino" width="480" height="480">
+                    <h3 class="card-heading">S’mores Frappuccino</h3>
+                    <p class="card-text">This new drink takes an espresso and mixes it with brown sugar and cinnamon
+                        before being
+                        topped with oat milk.</p>
+                    <span class="price">$5.50</span>
+                </div>
+                <div class="slide">
+                    <img src="./slider-img/coffee-slider-2.png" alt="S'mores Frappuccino" width="480" height="480">
+                    <h3 class="card-heading">Caramel Macchiato</h3>
+                    <p class="card-text">Fragrant and unique classic espresso with rich caramel-peanut syrup, with
+                        cream under whipped
+                        thick foam.</p>
+                    <span class="price">$5.00</span>
+                </div>
+                <div class="slide">
+                    <img src="./slider-img/coffee-slider-3.png" alt="Ice coffee" width="480" height="480">
+                    <h3 class="card-heading">Ice coffee</h3>
+                    <p class="card-text">A popular summer drink that tones and invigorates. Prepared from coffee,
+                        milk and ice.</p>
+                    <span class="price">$4.50</span>
+                </div>
+            </div>
+            <button class="button btn-right" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.5 12H6M6 12L12 6M6 12L12 18" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+        <div class="controls">
+            <span class="control active"><img src="./slider-img/control.png" alt="control"/></span>
+            <span class="control active"><img src="./slider-img/control (1).png" alt="control"/></span>
+            <span class="control active"><img src="./slider-img/control (2).png" alt="control"/></span>
         </div>
     </section>
 
